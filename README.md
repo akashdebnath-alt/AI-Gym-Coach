@@ -139,3 +139,123 @@ Run the application
 ```bash
 streamlit run app.py
 ```
+---
+
+# 📸 Application Screenshots
+
+> Screenshots will be added in future updates.
+
+## Login
+
+![Login](assets/login.png)
+
+---
+
+## Dashboard
+
+![Dashboard](assets/dashboard.png)
+
+---
+
+## AI Coach
+
+![AI Coach](assets/aicoach.png)
+
+---
+
+## Workout Generator
+
+![Workout](assets/workout.png)
+
+---
+
+## Nutrition Planner
+
+![Nutrition](assets/nutrition.png)
+
+---
+
+## Progress Tracking
+
+![Progress](assets/progress.png)
+
+---
+
+# 🏗️ System Architecture
+
+```text
+                User
+                  │
+                  ▼
+          Streamlit Frontend
+                  │
+                  ▼
+          LangGraph AI Agent
+          ┌────────┼────────┐
+          │        │        │
+          ▼        ▼        ▼
+      Gemini    AI Tools   RAG
+                            │
+                            ▼
+                    FAISS Knowledge Base
+                            │
+                            ▼
+                     SQLite Database
+```
+
+---
+
+# 🚀 Future Improvements
+
+This project will continue to evolve with new AI capabilities.
+
+### Version 2.0
+
+* 🎤 Voice AI Coach
+* 📅 Workout Calendar
+* 📊 Advanced Analytics
+* 🍎 Smart Nutrition Recommendations
+
+### Version 3.0
+
+* 📷 Exercise Pose Detection
+* 🤖 Computer Vision Workout Tracking
+* ⌚ Smartwatch Integration
+
+### Version 4.0
+
+* ☁️ Cloud Deployment
+* 📱 Mobile Application
+* 👨‍🏫 AI Personal Trainer
+
+---
+
+# 👨‍💻 Developer
+
+**Akash Debnath**
+
+Computer Science Engineering Student
+
+Interested in:
+
+* Artificial Intelligence
+* Machine Learning
+* Data Science
+* Generative AI
+* Large Language Models
+
+GitHub:
+
+https://github.com/akashdebnath-alt
+
+LinkedIn:
+
+https://www.linkedin.com/in/akash-debnath
+
+---
+
+# ⭐ If you like this project
+
+Please consider giving it a ⭐ on GitHub.
+
+It motivates me to continue improving the project.
