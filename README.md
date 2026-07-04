@@ -59,3 +59,83 @@ The application acts as an intelligent fitness assistant that generates personal
 * bcrypt
 
 ---
+## 📂 Project Structure
+
+```text
+AI-Gym-Coach/
+│
+├── app.py
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── assets/
+│
+├── backend/
+│   ├── auth.py
+│   ├── database.py
+│   ├── graph.py
+│   ├── llm.py
+│   ├── models.py
+│   ├── prompts.py
+│   ├── tools.py
+│   ├── workout_generator.py
+│   ├── diet_generator.py
+│   ├── progress.py
+│   ├── chat_history.py
+│   ├── workout_history.py
+│   ├── nutrition_history.py
+│   └── rag/
+│
+├── knowledge/
+│
+└── faiss_index/
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/akashdebnath-alt/AI-Gym-Coach.git
+```
+
+Move into the project directory
+
+```bash
+cd AI-Gym-Coach
+```
+
+Create a virtual environment
+
+```bash
+python -m venv .venv
+```
+
+Activate the virtual environment
+
+Windows
+
+```bash
+.venv\Scripts\activate
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Create a `.env` file
+
+```env
+GOOGLE_API_KEY=YOUR_API_KEY
+```
+
+Run the application
+
+```bash
+streamlit run app.py
+```
